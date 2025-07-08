@@ -1,0 +1,11 @@
+#to see greatest of the numbers entered by user
+a = int(input("Enter the first number: "))  # I am gonna put 10
+b = int(input("Enter the second number: "))  # I am gonna put 20
+c = int(input("Enter the third number: "))  # I am gonna put 30
+if a > b and a > c:
+    print("The greatest number is:", a) 
+elif b > a and b > c:
+    print("The greatest number is:", b)
+elif c > a and c > b:
+    print("The greatest number is:", c)
+    
