@@ -1,0 +1,8 @@
+# Module:-In Python programming, a module is a file containing Python definitions and statements. 
+# Essentially, it's a way to organize related code into reusable units, promoting modularity and code reusability. 
+#Examples of Module:- Flask(for web apps), django(Web frameworks),etc
+#We can install modules by 'pip' through cmd.....'pip install pyjokes' 
+
+   import pyjokes 
+   joke = pyjokes.get_jokes()
+   print(joke)
