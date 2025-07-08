@@ -1,0 +1,9 @@
+#some dictionaries problems 
+elements = { "resistor": "A device that resists the flow of electric current",
+            "capacitor": "A device that stores electrical energy in an electric field",
+            "inductor": "A device that stores electrical energy in a magnetic field",
+            "diode": "A device that allows current to flow in one direction only",
+
+}
+name_element = input("Enter the name of the element: ")  # I am gonna put "resistor"
+print(elements[name_element])
