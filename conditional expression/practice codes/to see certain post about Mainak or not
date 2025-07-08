@@ -1,0 +1,8 @@
+#let's see a code to find a given post is taking about "Mainak" or not 
+post = input("Enter the post: ")  
+if "Mainak" in post: 
+    print("The post is about Mainak")
+else:
+    print("The post is not about Mainak")   
+#I have done this to show you the use of 'in' operator in python which is used to check if a value is present in a list, tuple, set, or string
+#actually the code is to let you know that if else also occurs for string case too 
