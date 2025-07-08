@@ -1,0 +1,11 @@
+#functions:-these are a group of statements which is used to perform a specific task
+#Why use functions?
+'''Avoid repetition — write once, use many times.
+Organize code into logical sections.
+Make debugging easier.
+Enable reusability and teamwork in larger programs.'''
+
+#there are two types of functions 
+''' first, user defined function :- where we have to define the function and have to call it
+    second, built in function:- it alreday present in Python example : print(), len(), range(),
+'''
