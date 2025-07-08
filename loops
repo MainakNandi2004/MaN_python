@@ -1,0 +1,13 @@
+#loops:-In Python, loops are used to execute a block of code repeatedly until a certain condition is met.
+#There are two main types of loops in Python: for loops and while loops.
+#for loops are used to iterate over a sequence (like a list, tuple, or string) or a range of numbers.
+#while loops are used to execute a block of code as long as a condition is true.
+#both the loops are ended with a colon (:) and the code block inside the loop is indented.
+#for loop example
+for i in range(5):  # This will print the numbers from 0 to 4
+    print(i)  # This will print the value of i in each iteration
+#while loop example
+i = 0  # Initializing the variable i
+while i < 5:  # This will run the loop as long as i is less than 5
+    print(i)  # This will print the value of i in each iteration
+    i += 1  # Incrementing the value of i by 1 in each iteration
