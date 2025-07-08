@@ -1,0 +1,18 @@
+#lists:-In Python, a list is a collection of items that are ordered and changeable.
+#Lists are defined by enclosing the items in square brackets [] and separating them with commas.
+#Lists can contain items of different data types, including numbers, strings, and even other lists.
+#Here is an example of a list:
+fab_foods = ["chicken biryani", "pizza", "burger", "pasta", "sushi",] 
+print("The list of my favourite foods is:\n", fab_foods)  # This will print the list of my favourite foods
+#now I want to select one acording to my choice
+print(fab_foods[0])
+#or
+choice = int(input("Enter the number of your choice: "))  # I am gonna put
+print("Your choice is:", fab_foods[choice])  # This will print the food item according to the choice made by the user
+#lists can be changed
+fab_foods[2] = "Dim Sum"  # This will change the third item in the list to "Dim Sum"
+fab_foods[3] = "Dosa"  # This will change the fourth item in the list to "Dosa"
+print("The updated list of my favourite foods is:\n", fab_foods)  #so from the above code we can see that the list is mutable i.e. it can be changed unlike strings which are immutable
+#indexing of lists
+print("The first three in the list is:\n", fab_foods[:3])  # This will print the first three items in the list
+print("The last three in the list is:\n", fab_foods[-3:])
