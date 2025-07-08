@@ -1,0 +1,5 @@
+#sets:-In Python, a set is a collection of unique items that are unordered and unchangeable.
+#Sets are defined by enclosing the items in curly braces {} and separating them with commas.
+#Here is an example of a set:
+s={"apple", "grapes", "cherry", "apple"}  # This is a set with duplicate items
+print("The set is:\n", s)  # This will print the set
