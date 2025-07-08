@@ -1,0 +1,5 @@
+m="MAINAK"
+for i in m:
+    print(i)
+else:
+    print("\tDone")
