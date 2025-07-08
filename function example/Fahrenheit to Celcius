@@ -1,0 +1,7 @@
+# fahrenheit to celcius
+def temp(f):
+    c=5*(f-32)/9
+    return c
+
+f=float(input("Enter the temperature in fahrenheit"))
+print(f"{temp(f)} °C") #to type degree(°) sign just type Alt+0176
