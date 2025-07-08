@@ -1,0 +1,4 @@
+#to find the square root of a number
+import math # importing the math module to use the sqrt function
+a = int(input("Enter a number: "))  # I am gonna put 25
+print("The square root of the number is:", math.sqrt(a))  # This will give
