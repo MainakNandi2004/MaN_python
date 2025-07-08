@@ -1,0 +1,6 @@
+#logical operators
+a = True
+b = False
+print("a or b:", a or b)  # True if either a or b is
+print("a and b:", a and b)  # True if both a and b are True
+print("not a:", not a)  # True if a is False....makes the opposite of the value of a
