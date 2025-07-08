@@ -1,4 +1,27 @@
+# combining two numbers and finding sum of it
 a=input("Enter the number: ")
 b=input("Enter the second number: ")
 print("The combining of the two numbers is:",a+b)
 print("The sum of the two numbers is:", int(a)+int(b))
+
+#take a number divide it and finding out the remainder from it
+a = int(input("Enter a number: "))  # I am gonna put 10 
+b = int(input("Enter a divisor: "))  # I am gonna put 3 divisor
+print("The answer is:", a/b ) #this will give the answer of the division
+print ("The remainder is:", a % b)  # This will give the remainder of the division
+print ("The quotient :", a // b) # This will give the quotient of the division
+
+#finding average of the numbers
+a = int(input("Enter the first number: "))  # I am gonna put 10
+b = int(input("Enter the second number: "))  # I am gonna put 20
+c = int(input("Enter the third number: "))  # I am gonna put 30
+print ("The average of the three numbers is:", (a + b + c) / 3)  # This will give the average of the three numbers
+
+#to find the squuare of a number
+a = int(input("Enter a number: "))  # I am gonna put 5
+print("The square of the number is:", a ** 2)  # This will give the square of the number
+
+#to find the square root of a number
+import math # importing the math module to use the sqrt function
+a = int(input("Enter a number: "))  # I am gonna put 25
+print("The square root of the number is:", math.sqrt(a))  
