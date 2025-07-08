@@ -1,0 +1,8 @@
+letter= '''Dear <name>,
+I am happy to inform you that you have been selected for the job.
+Thank you for your application.
+on <date>'''
+# This is a letter template where we can replace <name> and <date> with the actual name and date
+name = input("Enter your name: ")  # I am gonna put Mainak
+date = input("Enter the date: ")  # I am gonna put 18th June 2025
+print(letter.replace("<name>", name).replace("<date> ", date))  # Replacing <name> and <date> with the actual name
