@@ -1,0 +1,5 @@
+l=[1,"Mainak","1.1",False,None]
+i=0
+for i in range(5):
+ print(l[i])
+ i+=1
