@@ -1,0 +1,8 @@
+#to print sum of first n natural numbers using recursive function
+def sum(n):
+    if (n==1):
+        return 1
+    return sum(n-1) + n
+n=int(input("Enter how many numbers you wants to do sum"))
+print(f"{sum(n)} is the sum of {n} natural numbers")
+     
