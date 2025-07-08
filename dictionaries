@@ -1,0 +1,13 @@
+#dictionaries:-In Python, a dictionary is a collection of key-value pairs that are unordered and changeable.
+#Dictionaries are defined by enclosing the key-value pairs in curly braces {} and separating them with commas.
+#Here is an example of a dictionary:
+my_dict = {
+    "name": "Mainak",
+    "age": 21,
+    "city": "Kolkata",
+    "hobbies": ["coding", "workout", "gaming"], # list inside a dictionary
+     00: "zero",  # integer key with string value
+    "is_married": False,  # boolean key with boolean value
+}
+print("The dictionary is:\n", my_dict)  # This will print the dictionary
+print(my_dict["city"])  # This will print the value of the key "name" in the dictionary   
