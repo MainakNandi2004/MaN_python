@@ -1,0 +1,3 @@
+for i in range(3):  # This will run the loop 3 times
+    name = input("Enter your name: ")  # I am gonna put "Mainak"
+    print(f"Hello, {name}!")  # This will print a greeting message with the name entered by the user
