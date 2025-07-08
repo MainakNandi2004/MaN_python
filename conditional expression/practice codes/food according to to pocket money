@@ -1,0 +1,45 @@
+pocket_money = int(input("Enter your pocket money: "))  # e.g. 1000
+
+if pocket_money >= 1000:
+    food_type = input("Are you a vegetarian or non-vegetarian? (v/n): ").lower()
+    if food_type == "v":
+        print("You have a veg burger every month.")
+    elif food_type == "n":
+        print("You have a pizza every month.")
+    else:
+        print("Invalid input. Please enter 'v' or 'n'.")
+
+elif pocket_money >= 800:
+    food_type = input("Are you a vegetarian or non-vegetarian? (v/n): ").lower()
+    if food_type == "v":
+        print("You have a veg burger every month.")
+    elif food_type == "n":
+        print("You have a chicken burger every month.")
+    else:
+        print("Invalid input. Please enter 'v' or 'n'.")
+
+elif pocket_money >= 500:
+    food_type = input("Are you a vegetarian or non-vegetarian? (v/n): ").lower()
+    if food_type == "v":
+        print("You have a veg sandwich every month.")
+    elif food_type == "n":
+        print("You have to survive on momos every month.")
+    else:
+        print("Invalid input. Please enter 'v' or 'n'.")
+
+elif pocket_money >= 200:
+    food_type = input("Are you a vegetarian or non-vegetarian? (v/n): ").lower()
+    if food_type == "v":
+        print("You have to survive on an empty stomach every month.")
+    elif food_type == "n":
+        print("You have to survive on cold drinks every month.")
+    else:
+        print("Invalid input. Please enter 'v' or 'n'.")
+
+else:
+    print("You have to bring your own food to college.")
+
+print("Thank you for using the program.")
+
+
+#.lower() is used to convert any uppercase input to lowercase, so that your conditionals (like if food_type == "v") will work regardless of whether the user types V, v, N, or n.
