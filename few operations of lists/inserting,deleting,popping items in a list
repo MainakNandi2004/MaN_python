@@ -1,0 +1,11 @@
+#inserting items in a list
+marks = [90, 80, 70, 60, 50]  # This is a list of marks
+marks.insert(2, 29)  # This will add "29" to the
+print( marks)  # This will print the updated list of marks
+#deleting items in a list
+marks.remove(60)  # This will remove "29" from the list 
+print(marks)  # This will print the updated list of marks after removing "29"
+#pop function in a list
+marks.pop(2)  # This will remove the item at index 2 from the list 
+print(marks)  # This will print the updated list of marks after removing the item at index 2
+#there are many functions in lists like append, extend, clear, copy, count, index, etc. which I have not used here but you can check them out in chatgpt or google by searching "the most used list functions in python"
