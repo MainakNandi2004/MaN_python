@@ -1,0 +1,9 @@
+#now function can go with arguments , for that let's see a code
+def MaN(name,ending):
+    print("\n")
+    print("Mainak is " + name)
+    print("That's"+ending)
+
+MaN("bad coder"," done")
+MaN("lazy"," great")
+MaN("foodie"," okay")
