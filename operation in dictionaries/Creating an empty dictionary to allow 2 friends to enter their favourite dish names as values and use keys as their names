@@ -1,0 +1,8 @@
+#create an empty dictionary to allow 2 friends to enter their favourite dish names as values and use keys as their names.
+friends_dishes = {}  # This will create an empty dictionary to store the names and their favourite dishes
+range(2)  # This will allow 4 friends to enter their favourite dish names
+for _ in range(2):  # Looping 4 times to allow 4 friends
+    name = input("Enter the name of your friend: ")  # I am gonna put "Mainak"
+    dish = input("Enter the favourite dish of your friend: ")  # I am gonna put "Biryani"
+    friends_dishes[name] = dish  # This will add the name and its favourite dish to the dictionary
+print("The dictionary of friends and their favourite dishes is:\n", friends_dishes)  # This will print the dictionary of friends and their favourite dishes
