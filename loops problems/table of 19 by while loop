@@ -1,0 +1,6 @@
+#printing the table of 19 by while loop
+i=0
+n=int(input("Enter a number for multiplication"))
+while i <=10:
+    print(f"{n} X {i}={n*i}")
+    i+=1
