@@ -1,0 +1,9 @@
+#operators:-In Python, operators are special symbols that perform operations on variables and values.
+# They can be classified into several categories, including arithmetic, comparison, logical, assignment, and bitwise operators.
+#examples of operators include:
+a= "+,-,*,/,%,/\n"   #(arithmetic operators) 
+b= "==,!=,>,<,>=,<=/\n" #(comparison operators)  
+c= "and, or, not\n" #(logical operators)
+d= "=, +=, -=, *=, /=\n" #(assignment operators) 
+e= "&, |, ^, ~, <<, >>\n" #(bitwise operators)
+print("Operators in Python are used to perform operations on variables and values \n", a,b,c,d,e)
