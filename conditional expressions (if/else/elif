@@ -1,0 +1,17 @@
+#now we will do a elif statement
+a = int(input("Enter your pocket money "))
+if a >= 1000:
+    print("You can have a pizza every month")
+elif a >= 800:
+    print("You can have a burger every month")
+elif a >= 500:
+    print("You can have to survive on momo every month")
+else:
+    print("You have to bring your own food to college")
+print ("Thank you for using the program")  # This will print a thank you message after the program ends
+
+#relational operators are to mention condition in if statements like >, <, >=, <=, ==, !=
+#logical operators are used to combine multiple conditions like 
+# and (when both conditions are true),
+# or  (when at least one condition is true),
+# not (when the condition is false)
