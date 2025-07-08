@@ -1,0 +1,5 @@
+#to count how many times M are there in our tuple
+my_tuple = ("M", "m", "M", "m", "M", "M", "M", "m", "M", "m", "M" )
+M= my_tuple.count("M") # This will count the number of times "M" appears in the tuple
+m= my_tuple.count("m") # This will count the number of times "m" appears in the tuple
+print("The number of times 'M' appears in the tuple is:\n", M , m)  # This will print the count of "M" in the tuple
