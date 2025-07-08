@@ -1,0 +1,6 @@
+#to check whether there is any M name person in the list
+l=["Priyank","monty","manoj","Mainak","Mercury"]
+for name in l:
+    if name.startswith("M"):
+        print (name)
+      
