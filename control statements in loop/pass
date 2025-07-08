@@ -1,0 +1,12 @@
+#pass statements
+for i in range(45):
+    pass #it is used to stop a past action and sho wthe latest ones
+
+
+l=[1,"Mainak","1.1",False,None]
+i=0
+while (i < len(l)):
+ print(l[i])
+ i+=1
+
+
