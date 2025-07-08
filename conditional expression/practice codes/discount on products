@@ -1,0 +1,16 @@
+#write a prgram to check discounts on a certain product if it above certain figure it has 60% to atleast 30% discount and if it is below that figure then it has no discount. Asume three products and price from user as input
+product1 = float(input("Enter the price of product 1: "))  # I am gonna put 1500
+product2 = float(input("Enter the price of product 2: "))  # I am gonna put 2000
+product3 = float(input("Enter the price of product 3: "))  # I am gonna put 2500        
+if product1 > 1000:
+    print("The price of product 1 after discount is:", product1 * 0.4)  # 60% discount  
+else:
+    print("The price of product 1 after discount is:", product1 * 0.7)
+if product2 > 1000:
+    print("The price of product 2 after discount is:", product2 * 0.4)  # 60% discount
+else:
+    print("The price of product 2 after discount is:", product2 * 0.7)
+if product3 > 1000:
+    print("The price of product 3 after discount is:", product3 * 0.4)  # 60% discount
+else:
+    print("The price of product 3 after discount is:", product3 * 0.7)
