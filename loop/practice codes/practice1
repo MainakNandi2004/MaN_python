@@ -1,0 +1,4 @@
+i=0
+while i < 3:  # This will run the loop 3 times
+    print(f"Mainak", i)  # This will print a greeting message with the
+    i+=1  # Incrementing the value of i by 1 in each iteration
