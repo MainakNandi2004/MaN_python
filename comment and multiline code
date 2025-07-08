@@ -1,0 +1,5 @@
+ we write any command for understanding by the coder by the sign '#'
+
+print('''actually it is a multiline code 
+ either you have to print it line by line 
+      or you have to this i.e. you have give three quotes     ''')
