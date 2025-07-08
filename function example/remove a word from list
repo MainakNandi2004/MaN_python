@@ -1,0 +1,7 @@
+# a python program which involves function to remove a word from the list and strip that at the same time
+def rem(l , letter):
+    for item in l:
+        l.remove(letter)
+        return l
+l=["M","A","I","N","A","K"]
+print(rem(l,"A"))
