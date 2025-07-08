@@ -1,0 +1,10 @@
+#methods of sets to add , remove  , union and intersection
+s.add("banana")  # This will add "banana" to the set
+print("The set after adding banana is:\n", s)  # This will print the set after adding "banana"
+s.remove("apple")  # This will remove "apple" from the set
+print("The set after removing apple is:\n", s)  # This will print the set after removing "apple"
+q={"orange", "kiwi", "banana"}  # This is another set
+print("The union of the two sets is:\n", s.union(q))  # This will print the union of the two sets
+print("The intersection of the two sets is:\n", s.intersection(q))  # This will print the intersection of the two sets
+print("The difference of the two sets is:\n", s.difference(q))  # This will print the difference of the two sets
+#there are many types of more methods of operations you can just google it go through chatgpt
