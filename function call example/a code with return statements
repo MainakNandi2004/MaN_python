@@ -1,0 +1,15 @@
+#let's do a code with return as it holds a value for a variable which we can store for future use
+import math
+def vol(r,h):
+    volume=math.pi*r**2*h
+    return volume
+r=int(input("Enter the radius"))
+print("The radius is "+ str(r))
+h=int(input("Enter the height"))
+print("The radius is "+ str(h)) 
+volume=vol(r,h) 
+print("The volume is "+f"{volume}"+" cubic units")
+#let's add 1 with the main volume 
+volume_1= volume+1
+print(f"{volume_1}"+ " is the value after adding 1")
+#so you can see here that the return has stored the value with the variable "volume" in the function  `and we can use it multiple times in any execution
