@@ -1,0 +1,12 @@
+#conditional expressions:-In Python, conditional expressions are used to execute a block of code based on a condition.
+#They are often used with if, elif, and else statements to control the flow of the program.
+#all conditional expression are ended with a colon (:) and the code block that follows is indented.
+#Here is an example of a conditional expression:
+a=int(input("Enter your pocket money "))  
+if a >=1000:
+    print("You can have a pizza evry month") #you can see the space created by the if statement is called indentation
+else:
+    print("You have to survive on momo every month")
+
+
+  
