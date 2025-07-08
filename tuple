@@ -1,0 +1,14 @@
+#tuples:-In Python, a tuple is a collection of items that are ordered and unchangeable.
+#Tuples are defined by enclosing the items in parentheses () and separating them with commas.   
+#Tuples can contain items of different data types, including numbers, strings, and even other tuples.
+#Here is an example of a tuple:
+myself_tuple =("MaN",18 , 6 , 2004,False, None, 21.1)
+print( myself_tuple)  # This will count the number of times "18" appears in the tuple
+myself_tuple.count(18) #This will count the number of times "18" appears in the tuple
+print( myself_tuple.count(18))  # This will print the count of "18" in the tuple
+print(len(myself_tuple))  # This will print the length of the tuple
+#indexing of tuples
+print(myself_tuple.index(False))  # This will give the index of the first occurrence of "False" in the tuple
+print(myself_tuple[3])  # This will print the first item in the tuple
+print(myself_tuple[0:3])  # This will print the first three items in the tuple
+#for these cases of tuples also there are many functions like length, index, count, etc. which I have not used here but you can check them out in chatgpt or google by searching "the most used tuple functions in python"
