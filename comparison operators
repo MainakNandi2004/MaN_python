@@ -1,0 +1,5 @@
+ #comparison operators
+a = 10
+b = 20 
+print("a is greater than b:", a > b)
+print("a is less than b:", a < b)
