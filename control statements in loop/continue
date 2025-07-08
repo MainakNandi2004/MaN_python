@@ -1,0 +1,5 @@
+#continue statements
+for i in range(10):
+    if i == 6:
+        continue #it skips the given data and executes the remaining
+    print(i)
