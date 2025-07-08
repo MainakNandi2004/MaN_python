@@ -1,0 +1,6 @@
+#have to print a list through while loop 
+l=[1,"Mainak","1.1",False,None]
+i=0
+while (i < len(l)):
+ print(l[i])
+ i+=1
