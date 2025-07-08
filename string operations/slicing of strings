@@ -1,0 +1,16 @@
+#some functions of strings
+#slicing of strings
+name = "Mainak"  # This is a string
+nameshort = name[0:4]  # This will give the first 5 characters of the string and 4th character is not included
+print("The first 4 characters of the string are: \n", nameshort)  # This will print the first 5 characters of the string
+character = name[1]  # This will give the first character of the string like this we can print 0-M,1-a,2-i,3-n,4-a,5-k
+print( "The character of the string is: \n", character)  # This will print the first character of the string
+# negative slicing of strings
+print(name[-1])  # This will print the last character of the string
+print(name[-5:-1])  # This will print the characters from 4th last to 1st last character of the string
+print(name[1:5]) # This will print the characters from 1st to 4th character of the string
+print(name[1:])  # This will print the characters from 1st to last
+print(name[:4])  # This will print the characters from 0th to 4th character of the string
+#slicing by skipping characters
+print(name[0:5:2])  # This will print the characters from 0 to 6th character of the string by skipping every 2nd character
+#first character will comne then alternate second will delete 
