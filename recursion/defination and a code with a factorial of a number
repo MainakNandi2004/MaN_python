@@ -1,0 +1,10 @@
+#Recursion :- It is a function which calls itself 
+#the best example of recursion is factorial of a number where we everytime call the function itself
+def factorial(n):
+    if (n == 1 or n == 0):
+        return 1
+    return n * factorial(n - 1)
+
+n = int(input("Enter a number: "))
+print(f"{factorial(n)} is the factorial of the number which is stored in {n}")
+
