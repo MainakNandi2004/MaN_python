@@ -1,0 +1,7 @@
+#celcius to fahrenheit
+def temp(c):
+    f=(c/5)*9+32
+    return f
+
+c=float(input("Enter the temperature in celcius"))
+print(f"{temp(c)} F") 
