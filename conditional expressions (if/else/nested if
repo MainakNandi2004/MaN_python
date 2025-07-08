@@ -1,0 +1,10 @@
+#nested if statements are used to check multiple conditions
+#for example:
+a = int(input("Enter your age: "))  # I am gonna put 18
+if a >= 18:
+    print("You are eligible to vote")
+    if a >= 21:
+        print("You are eligible to drink alcohol")
+    else:
+        print("You are not eligible to drink alcohol")
+print("Thank you for the input")  # This will print a thank you message after the program ends
