@@ -1,0 +1,12 @@
+#methods of dictionaries
+print(my_dict.keys())  # This will print the keys of the dictionary
+print(my_dict.values())  # This will print the values of the dictionary
+print(my_dict.items())  # This will print the key-value pairs of the dictionary
+print(my_dict.update({"city" : "Geneva"}))  # This will update the value of the key "city" in the dictionary to "Delhi"
+print(my_dict.get("age"))  # This will print the updated dictionary after updating the value of the key "city"
+print(my_dict["age"]) # This will print the value of the key "age" in the dictionary
+#so the main difference between the get and the [] is that if the key is not present in the dictionary then get will return None but [] will give an error
+#adding a new key-value pair to the dictionary
+my_dict["country"] = "India"  # This will add a new key-value pair
+#print(my_dict.pop("city"))  # This will remove the key "city" from the dictionary and return its value
+#so there are many functions in dictionaries like pop, popitem, clear, copy, fromkeys, setdefault, etc. which I have not used here but you can check them out in chatgpt or google by searching "the most used dictionary functions in python"
