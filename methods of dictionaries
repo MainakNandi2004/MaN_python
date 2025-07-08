@@ -1,0 +1,33 @@
+#methods of dictionaries
+print(my_dict.keys())  # This will print the keys of the dictionary
+print(my_dict.values())  # This will print the values of the dictionary
+print(my_dict.items())  # This will print the key-value pairs of the dictionary
+print(my_dict.update({"city" : "Geneva"}))  # This will update the value of the key "city" in the dictionary to "Delhi"
+print(my_dict.get("age"))  # This will print the updated dictionary after updating the value of the key "city"
+print(my_dict["age"]) # This will print the value of the key "age" in the dictionary
+#so the main difference between the get and the [] is that if the key is not present in the dictionary then get will return None but [] will give an error
+#adding a new key-value pair to the dictionary
+my_dict["country"] = "India"  # This will add a new key-value pair
+#print(my_dict.pop("city"))  # This will remove the key "city" from the dictionary and return its value
+#so there are many functions in dictionaries like pop, popitem, clear, copy, fromkeys, setdefault, etc. which I have not used here but you can check them out in chatgpt or google by searching "the most used dictionary functions in python"
+
+
+#some dictionaries problems 
+elements = { "resistor": "A device that resists the flow of electric current",
+            "capacitor": "A device that stores electrical energy in an electric field",
+            "inductor": "A device that stores electrical energy in a magnetic field",
+            "diode": "A device that allows current to flow in one direction only",
+
+}
+name_element = input("Enter the name of the element: ")  # I am gonna put "resistor"
+print(elements[name_element])
+
+
+#create an empty dictionary to allow 4 friends to enter their favourite dish names as values and use keys as their names.
+friends_dishes = {}  # This will create an empty dictionary to store the names and their favourite dishes
+range(2)  # This will allow 4 friends to enter their favourite dish names
+for _ in range(2):  # Looping 4 times to allow 4 friends
+    name = input("Enter the name of your friend: ")  # I am gonna put "Mainak"
+    dish = input("Enter the favourite dish of your friend: ")  # I am gonna put "Biryani"
+    friends_dishes[name] = dish  # This will add the name and its favourite dish to the dictionary
+print("The dictionary of friends and their favourite dishes is:\n", friends_dishes)  # This will print the dictionary of friends and their favourite dishes
