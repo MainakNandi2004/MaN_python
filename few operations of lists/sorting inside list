@@ -1,0 +1,11 @@
+#sorting of lists
+fab_foods.sort()  # This will sort the list in alphabetical order
+print("The sorted list of my favourite foods is:\n", fab_foods)  # This will print the sorted list of my favourite foods
+no= [59,49,69,89,79]  # This is a list of numbers
+no.sort()  # This will sort the list in ascending order
+print("The sorted list of numbers is:\n", no)  # This will print the sorted list of numbers
+#reversing a list
+fab_foods.reverse()  # This will reverse the list   
+no.reverse()  # This will reverse the list of numbers
+print(fab_foods) # as it is sorted so it is giving the reverse of the sorted list
+print(no)
