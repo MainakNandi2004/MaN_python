@@ -1,0 +1,8 @@
+#dectecting double space 
+text=input("Enter a text")  # please enter a text with double space
+print("The double space is found at index",text.find("  "))#This will find the first occurence of double space
+#detecting triple space 
+print("The triple space is found at index",text.find("   "))#This will find the first occurence of triple space
+a=input("Enter a character to replace it with the double spcae ")
+print("Now it will be :\n \t" , text.replace("  ",f" {a}")) #This will replace the double space with single space
+#or we can simply use text.replace("  "," ") to replace double space with single space
