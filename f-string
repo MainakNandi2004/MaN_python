@@ -1,0 +1,5 @@
+#f string is a very useful function during coding
+#as it is required to frame the output
+
+name=input("Enter your name: ")  # I am gonna put Mainak
+print(f"{name} is a human being")  # This will print the name of the person and say that he is a human being
