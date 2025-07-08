@@ -1,0 +1,13 @@
+#data types:-In Python, data types are classifications that specify the type of value a variable can hold.
+#I think you all know that well or just google it its quite same for every language
+a=1 #int
+b=1.1 #float
+c="Mainak" #string
+d="69.7" #string #something which is under quotes whether it is numbers or alphabets it is a str
+e=True #bool
+f=None #NoneType
+g=float(d) #converting str to float....but the type should be float
+h=str(a) #converting int to float .... as it will store the value in string format i.e. within quotes
+#this converting of datatypes is called typecasting
+print("The data types are\n", a,b,c,d,e,g,h)
+print("The data types are\n", type(a), type(b), type(c), type(d), type(e) , type(g) , type(h))
