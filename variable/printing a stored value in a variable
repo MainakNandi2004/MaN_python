@@ -1,0 +1,6 @@
+x = 10
+y = 20 
+z=x+y
+name = "Mainak "
+print("MY name is", name)
+print("The sum of x and y is:", z)
