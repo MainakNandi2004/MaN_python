@@ -1,0 +1,24 @@
+#let's call a function and see how it prints the area of rectangles with diffent length and braedth
+def area():   #function defination
+    len=int(input("Enter the length"))
+    brdth=int(input("Enetr the breadth"))
+    area=len*brdth
+    print("The area is", area)
+    #now I have been instructed to print the results of 5 rectangles so I will not write the code 5 times 
+    # instead I call a function which will do the code. now i have call function 5 times 
+    # I don't have to write the whole code
+    # and also I can add things if I want to add for separate function calls
+area()        #function call
+print("for 1st recangle")
+print("\n")
+area()
+print("for 2nd rectangle") 
+print("\n")
+area()
+print("for 3rd rectangle")
+print("\n")
+area()
+print("for 4th rectangle")
+print("\n")
+area()
+print("for 5th rectangle")
