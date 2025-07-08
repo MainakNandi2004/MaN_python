@@ -1,7 +1,0 @@
-#input function:-In Python, the input() function is used to take input from the user.
-a=input("For eg: ") # I am gonna input "Python"
-b=input("->") # I am gonna input "is a high level langugae"
-print("The truth is ",a+b) # So it will give "Python is a high level langugae" as output because it is taking the input as string and not int
-# So to convert it to int we have to do this
-#print("The truth is ", int (a)+int(b)) if it gives error then it is ok as the input is not a number to make it a number we have to put int before 'input'
-# or we can do this a=int(input("For eg: ")) same for b
