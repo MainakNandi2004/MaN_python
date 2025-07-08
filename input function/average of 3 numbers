@@ -1,0 +1,5 @@
+#finding average of numbers
+a = int(input("Enter the first number: "))  # I am gonna put 10
+b = int(input("Enter the second number: "))  # I am gonna put 20
+c = int(input("Enter the third number: "))  # I am gonna put 30
+print ("The average of the three numbers is:", (a + b + c) / 3)  # This will give the average of the three numbers
