@@ -1,0 +1,4 @@
+#printing the table of 19
+n=int(input("Enter a number for multiplication"))
+for i in range (0,11):
+    print(f"{n} X {i}={n*i}")
