@@ -1,0 +1,6 @@
+#take a number and divide it and give a remainder
+a = int(input("Enter a number: "))  # I am gonna put 10 
+b = int(input("Enter a divisor: "))  # I am gonna put 3 divisor
+print("The answer is:", a/b ) #this will give the answer of the division
+print ("The remainder is:", a % b)  # This will give the remainder of the division
+print ("The quotient :", a // b) # This will give the quotient of the division
