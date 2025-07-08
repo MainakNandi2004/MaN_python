@@ -1,0 +1,20 @@
+#make a tuple of marks of students given by user
+marks = []  # This will create an empty list to store the marks of the students
+m1 = int(input("Enter the marks ")) 
+marks.append(m1)  # This will add the marks to the list
+m2 = int(input("Enter the marks "))
+marks.append(m2)  # This will add the marks to the list
+m3 = int(input("Enter the marks "))
+marks.append(m3)  # This will add the marks to the list
+#sorting the marks
+marks.sort()  # This will sort the list of marks in ascending order
+print("marks are:", marks)  # This will print the list of marks
+#adding the marks inside a tuple
+print(sum(marks))  # This will print the sum of the marks
+
+
+#to count how many times M are there in our tuple
+my_tuple = ("M", "m", "M", "m", "M", "M", "M", "m", "M", "m", "M" )
+M= my_tuple.count("M") # This will count the number of times "M" appears in the tuple
+m= my_tuple.count("m") # This will count the number of times "m" appears in the tuple
+print("The number of times 'M' appears in the tuple is:\n", M , m)  # This will print the count of "M" in the tuple
