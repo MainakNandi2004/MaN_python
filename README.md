@@ -33,5 +33,5 @@ I'll keep pushing new codes to help you keep practicing and growing.
 That's all!
 🎉 **HAPPY CODING!** 🎉
 
-                                                              --Mainak Nandi
+                                                          Mainak Nandi
                                                                :)
